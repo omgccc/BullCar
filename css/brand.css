@@ -1,0 +1,46 @@
+.wrapper{
+	width: 1180px;
+    margin: 0px auto;
+    position: relative;
+}
+.title{
+	font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.letter{
+	font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    float: left;
+    width: 50px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #999;
+}
+.brand-item{
+	    margin-bottom: 20px;
+	    display: block;
+    height: 0;
+    clear: both;
+}
+.brand-letter a{
+    margin-right: 15px;
+    color: #666;
+    line-height: 30px;
+}
+.brand-letter{
+	float: left;
+    margin-left: 30px;
+    width: 1000px;
+}
+.brand-wrap{
+	    margin-top: 30px;
+}
+.brand-item a:hover{
+	color: #ff571a;
+}

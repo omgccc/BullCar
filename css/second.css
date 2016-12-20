@@ -1,0 +1,30 @@
+
+.content{
+	width: 960px;
+    padding: 10px 30px;
+    margin: 30px auto;
+    font-size: 14px;
+    line-height: 25px;
+    color: #444;
+}
+.content p{
+	margin: 10px 0;
+	    font-family: 'Microsoft YaHei';
+	    font-size: 14px;
+	    display: block;
+	     word-spacing:8px; letter-spacing: 1px;
+	      line-height: 25px;
+	    }
+	  .content p span{
+	  	display: block;
+	    
+	    }
+.content	.title{
+		width: 980px;
+    margin: 15px auto;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    color: #444;
+	}
