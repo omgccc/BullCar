@@ -17,3 +17,6 @@ scrollY>0?topTo.style.display= 'block':setTimeout(function(){
 		topTo.style.display='none'
 	},1000)
 };
+document.getElementById("top").onclick = function(){
+	scrollTo(0, 0);
+};
