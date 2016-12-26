@@ -106,38 +106,38 @@ var exhibitionData = [
 	},
 	{
 		href : "/a",
-		bigUrl : "./image/exhibition.jpg",
-		smallUrl : "./image/car_pic.png",
-		title : "豪车不止BBA",
-		label : "德系三架马车，是时候退位让贤啦"
+		bigUrl : "./image/pic2.jpg",
+		smallUrl : "./image/car2.png",
+		title : "百年大厂杰作",
+		label : "时间在流逝，品质永流传！"
 	},
 	{
 		href : "/a",
-		bigUrl : "./image/exhibition.jpg",
-		smallUrl : "./image/car_pic.png",
-		title : "豪车不止BBA",
-		label : "德系三架马车，是时候退位让贤啦"
+		bigUrl : "./image/pic3.jpg",
+		smallUrl : "./image/car3.png",
+		title : "便宜才是王道",
+		label : "谁说便宜没好车？"
 	},
 	{
 		href : "/a",
-		bigUrl : "./image/exhibition.jpg",
-		smallUrl : "./image/car_pic.png",
-		title : "豪车不止BBA",
-		label : "德系三架马车，是时候退位让贤啦"
+		bigUrl : "./image/pic5.jpg",
+		smallUrl : "./image/car4.png",
+		title : "驾校毕业生",
+		label : "那些年，我们练过的普桑和捷达。"
 	},
 	{
 		href : "/a",
-		bigUrl : "./image/exhibition.jpg",
-		smallUrl : "./image/car_pic.png",
-		title : "豪车不止BBA",
-		label : "德系三架马车，是时候退位让贤啦"
+		bigUrl : "./image/pic6.jpg",
+		smallUrl : "./image/car5_160x95.png",
+		title : "明星也抠门",
+		label : "明星都买二手车了你还等什么"
 	},
 	{
 		href : "/a",
-		bigUrl : "./image/exhibition.jpg",
-		smallUrl : "./image/car_pic.png",
-		title : "豪车不止BBA",
-		label : "德系三架马车，是时候退位让贤啦"
+		bigUrl : "./image/pic4.jpg",
+		smallUrl : "./image/car6.png",
+		title : "全能的大玩具",
+		label : "越野帮手、四驱利器"
 	}
 ];
 var fragment = document.createDocumentFragment();

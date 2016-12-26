@@ -40,9 +40,8 @@ body{
 .logo{
 	float:left;
 	margin:0 18px 0 6px;
-	width:82px;
-	height:36px;
-	background-image:url(../img/logo.png);
+	position: relative;
+	top: -22px;
 }
 .area{
 	float:left;
