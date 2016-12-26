@@ -75,9 +75,7 @@ for(var i = 0; i < brand_option.length; i++) {
 		
 	}
 }
-document.getElementById("top").onclick = function(){
-	scrollTo(0, 0);
-};
+
 function createBox(option){
 	var odiv=document.createElement('div'), //外部div
      aimg=document.createElement('a'),

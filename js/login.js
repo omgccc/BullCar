@@ -12,6 +12,7 @@ opacity=document.getElementById('opacity'),
 box=document.getElementById('box'),
 isCode=0;
 send.onclick=function(){
+	isCode=1
 	var telVal=tel.value;
 	console.log(telVal)
 	var isValue=/^1[3578]\d{9}$/.test(telVal);
@@ -21,19 +22,23 @@ send.onclick=function(){
 		err.classList.remove('current')
 	var i=60
 	var timer=setInterval(function(){
-			send.disabled='disabled'
-			send.innerText=(i--)+"秒后可重发"
+			send.disabled='disabled';
+			send.innerText=(--i)+"秒后可重发";
+			if(i==0){
+				send.innerText='发送验证码';
+				send.disabled='';
+				clearInterval(timer);
+			}
 		},1000)
 	
 	}else{
 	info.innerText='请输入正确手机号';
 	err.classList.add('current')}
-	
 }
 login.onclick = function(e){
 				e.preventDefault();
-				if(/^1[3578]\d{9}$/.test(iptTel.value) && /^\d{6}$/.test(iptCode.value) && isGotCode){
-					form.submit();
+				if(/^1[3578]\d{9}$/.test(tel.value) && /^\d{6}$/.test(message.value) && isCode){
+				form.submit();
 				}
 			};
 loading.onclick=function(){
@@ -41,12 +46,17 @@ opacity.style.display='block';
 box.style.display='block'
 document.querySelector('.load-item').innerText='登录'
 	document.querySelector('.button-login').value='登录'
+	tel.value='';
+	message.value=''
+	
 }
 signup.onclick=function(){
 	opacity.style.display='block';
 	box.style.display='block'
 	document.querySelector('.load-item').innerText='注册'
 	document.querySelector('.button-login').value='注 册'
+		tel.value='';
+	message.value=''
 }
 close.onclick=function(){
 opacity.style.display='none';
