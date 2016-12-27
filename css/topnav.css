@@ -43,6 +43,9 @@ body{
 	position: relative;
 	top: -22px;
 }
+.logo>img{
+	    -webkit-border-radius: 50px;
+}
 .area{
 	float:left;
 	margin:3px 50px 3px 0;
