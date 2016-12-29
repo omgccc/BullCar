@@ -96,12 +96,13 @@
 height: 36px;
     }
 .list_nav_brand ul.findall{
-	    width: 220px;
+	    width: 208px;
+	    overflow: hidden;
 }
 .list_nav_brand ul.findall li{
 	float: left;
     display: inline;
-    width: 54px;
+    width: 66px;
     color: #666;
     line-height: 26px;
     white-space: nowrap;
@@ -506,9 +507,7 @@ h4{
     display: inline-block;
     background-position: -200px -20px;
 }
-.card-box{
-	height: 2040px;
-}
+
 .sort{
 	margin: 30px auto;
     text-align: center;

@@ -75,186 +75,186 @@ for(var i = 0; i < brand_option.length; i++) {
 		
 	}
 }
-
-function createBox(option){
-	var odiv=document.createElement('div'), //外部div
-     aimg=document.createElement('a'),
-     img=document.createElement('img'),
-     carlink=document.createElement('a'),
-     price=document.createElement('div'),
-     pricespan=document.createElement('span'),
-     carinfo=document.createElement('div')
-     carinfoitem=document.createElement('span')
-     nationalcarinfo=document.createElement('div')
-     shopapprove=document.createElement('span')
-     
-     odiv.className='carsItem carItem'
-     aimg.className='carImg'
-     carlink.className='carLink'
-     price.className='car-price'
-     carinfo.className='car-info'
-     carinfoitem.className='info-item'     
-     nationalcarinfo.className='national-car-info'
-     shopapprove.className=option.classname          
-  
-  
-     odiv.appendChild(aimg)
-     aimg.appendChild(img)
-     img.src=option.imgurl
-     odiv.appendChild(aimg)
-     carlink.innerText=option.text
-     odiv.appendChild(carlink)
-     pricespan.innerText=option.price
-     price.appendChild(pricespan)
-     odiv.appendChild(price)
-     carinfoitem.innerHTML='<span>'+option.info1+'</span>'+'<span>'+option.em+'</span>'+'<span>'+option.info2+'</span>'+'<span>'+option.em+'</span>'+'<span>'+option.info3+'</span>'
-     carinfo.appendChild(carinfoitem)
-     odiv.appendChild(carinfo)
-     nationalcarinfo.appendChild(shopapprove)
-     odiv.appendChild(nationalcarinfo)
-     return odiv
-}
-
-var data=[
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-	classname:'shop-approve list-approve'
-},
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-    classname:'shop-approve list-realname-approve'
-},
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-    classname:'shop-approve list-realname-approve'
-},
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-    classname:'shop-approve list-realname-approve'
-},
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-    classname:'shop-approve list-realname-approve'
-},
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-    classname:'shop-approve list-realname-approve'
-},
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-    classname:'shop-approve list-realname-approve'
-},
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-    classname:'shop-approve list-realname-approve'
-},
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-    classname:'shop-approve list-realname-approve'
-},
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-    classname:'shop-approve list-realname-approve'
-},
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-    classname:'shop-approve list-realname-approve'
-},
-{
-	imgurl:'./img/car1.jpg',
-	href:'#',
-	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
-	price:'￥27.9万',
-	info1:'2011/09 上牌 ',
-	em:'|',
-	info2:"4.50万公里",
-	info3:'浙江',
-    classname:'shop-approve list-realname-approve'
-}]
-
-var fragment =document.createDocumentFragment(),
-carBox= document.getElementById('card-box');
-data.forEach(function(item){
-	fragment.appendChild(createBox(item));
-})
-carBox.appendChild(fragment);
+//
+//function createBox(option){
+//	var odiv=document.createElement('div'), //外部div
+//   aimg=document.createElement('a'),
+//   img=document.createElement('img'),
+//   carlink=document.createElement('a'),
+//   price=document.createElement('div'),
+//   pricespan=document.createElement('span'),
+//   carinfo=document.createElement('div')
+//   carinfoitem=document.createElement('span')
+//   nationalcarinfo=document.createElement('div')
+//   shopapprove=document.createElement('span')
+//   
+//   odiv.className='carsItem carItem'
+//   aimg.className='carImg'
+//   carlink.className='carLink'
+//   price.className='car-price'
+//   carinfo.className='car-info'
+//   carinfoitem.className='info-item'     
+//   nationalcarinfo.className='national-car-info'
+//   shopapprove.className=option.classname          
+//
+//
+//   odiv.appendChild(aimg)
+//   aimg.appendChild(img)
+//   img.src=option.imgurl
+//   odiv.appendChild(aimg)
+//   carlink.innerText=option.text
+//   odiv.appendChild(carlink)
+//   pricespan.innerText=option.price
+//   price.appendChild(pricespan)
+//   odiv.appendChild(price)
+//   carinfoitem.innerHTML='<span>'+option.info1+'</span>'+'<span>'+option.em+'</span>'+'<span>'+option.info2+'</span>'+'<span>'+option.em+'</span>'+'<span>'+option.info3+'</span>'
+//   carinfo.appendChild(carinfoitem)
+//   odiv.appendChild(carinfo)
+//   nationalcarinfo.appendChild(shopapprove)
+//   odiv.appendChild(nationalcarinfo)
+//   return odiv
+//}
+//
+//var data=[
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//	classname:'shop-approve list-approve'
+//},
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//  classname:'shop-approve list-realname-approve'
+//},
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//  classname:'shop-approve list-realname-approve'
+//},
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//  classname:'shop-approve list-realname-approve'
+//},
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//  classname:'shop-approve list-realname-approve'
+//},
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//  classname:'shop-approve list-realname-approve'
+//},
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//  classname:'shop-approve list-realname-approve'
+//},
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//  classname:'shop-approve list-realname-approve'
+//},
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//  classname:'shop-approve list-realname-approve'
+//},
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//  classname:'shop-approve list-realname-approve'
+//},
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//  classname:'shop-approve list-realname-approve'
+//},
+//{
+//	imgurl:'./img/car1.jpg',
+//	href:'#',
+//	text:'丰田 2011款 凯美瑞 200G 豪华周年纪念版',
+//	price:'￥27.9万',
+//	info1:'2011/09 上牌 ',
+//	em:'|',
+//	info2:"4.50万公里",
+//	info3:'浙江',
+//  classname:'shop-approve list-realname-approve'
+//}]
+//
+//var fragment =document.createDocumentFragment(),
+//carBox= document.getElementById('card-box');
+//data.forEach(function(item){
+//	fragment.appendChild(createBox(item));
+//})
+//carBox.appendChild(fragment);
 
 //var more=document.getElementById('listmore'),
 //listNavBrand=document.querySelector('.list_nav_brand'),
